@@ -1,0 +1,193 @@
+.classDetails {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 30px;
+	padding: 10px;
+	padding-top: 15px;
+}
+#content {
+	border: 1px solid #999999;
+	overflow: auto;
+	position: absolute;
+	left: 320px;
+	top: 32px;
+	right: 10px;
+	bottom: 10px;
+	scrollbar-arrow-color: #C50023;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-highlight-color: #999999;
+	scrollbar-shadow-color:#999999;
+	scrollbar-3dlight-color:  #FFFFFF;
+	scrollbar-darkshadow-color: #FFFFFF;
+}
+#classList {
+	position: absolute;
+	background-color: #F7F8F9;
+	overflow:auto;
+	visibility: visible;
+	width: 280px;
+	min-height:100px;
+	left: 10px;
+	top: 32px;
+	bottom: 10px;
+	border: 1px solid #999999;
+	padding: 10px;
+	padding-top: 15px;
+	scrollbar-arrow-color: #C50023;
+	scrollbar-face-color: #F7F8F9;
+	scrollbar-track-color: #F7F8F9;
+	scrollbar-highlight-color: #999999;
+	scrollbar-shadow-color:#999999;
+	scrollbar-3dlight-color:  #F7F8F9;
+	scrollbar-darkshadow-color: #F7F8F9;
+}
+.pakageTreeName {
+	font-weight:normal;
+}
+.pakageTreeNameCurrent {
+	font-weight:bold;
+}
+#topBar {
+	color: #000000;
+	background-color:#bbbbbb;
+	position: absolute;
+	top:5px;
+	left: 10px;
+	right: 10px;
+	border: 1px solid #999999;
+	height:20px;
+	padding:0px;
+	background-image:url(topbg.gif);
+	overflow:hidden;
+}
+#createdText {
+	top:3px;
+	position: absolute;
+	right:20px;
+	height:17px;
+}
+#topNavigation {
+	top:3px;
+	position: absolute;
+	left: 10px;
+	height:17px;
+}
+.packageTreeVisible {
+	padding: 0px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+	display:inline-block;
+}
+.hiddenElement {
+	display:none;
+}
+.detailsVisible {
+	display:block;
+	margin:0px;
+	margin-bottom:30px;
+	padding: 0px;
+	display:block;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #666;
+}
+.detailHeader {
+	margin-top:10px;
+	font-size:13px;
+	font-weight:bold;
+}
+.detailElement {
+	font-size:11px;
+	font-weight:normal;
+}
+.treeBranch {
+	font-size: 11px;
+	color: #000000;
+	padding: 0px;
+}
+.nonChoosen {
+	font-weight:normal;
+}
+.choosen {
+	font-weight:bold;
+}
+.elementTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.methodPropertyTabel {
+	width:100%;
+}
+.methodPropertyModifiers {
+	width:5%;
+	padding-right:5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	vertical-align:top;
+}
+.methodPropertySummary {
+	font-style:italic;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	vertical-align:top;
+	color:#999;
+}
+.methodPropertyTitle {
+	width:5%;
+	padding-right:5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	vertical-align:top;
+}
+.methodPropertyLine {
+	padding-bottom:3px;
+	padding-top:3px;
+}
+.modifierExplanation{
+	right:10px;
+	position:absolute;
+}
+.classTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+code {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+	color: #000000;
+	font-style:normal;
+}
+.codeLine {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+	color: #000000;
+}
+.backButton {
+	margin-top: 30px;
+}
+.summary {
+	font-style: italic;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+a {
+	cursor: pointer;
+	color: #333333;
+}
+img {
+}

@@ -1,0 +1,85 @@
+<div class="classDetails" ID="SGPiece">
+   <div class="classTitle">SGPiece</div>
+   <div class="summary">Describes a sliding piece withing a sliding game. Must be assosiated with an existing MovieClip.<br/>The MovieClip must contain
+      the image of all pieces of the puzzle, each on a different keyframe<br/>and at the same relative position to the reference
+      point of the MovieClip. Considering the order<br/>that pieces appear when the puzzle is solved, they should be ordered following
+      the formula:<br/>Puzzle Height * X + Y (X,Y positions on the matrix, not on screen, starting at 0,0 at the leftmost-topmost<br/>piece).
+      The empty space is also a piece and an empty keyframe should be inserted wherever it<br/>is, but no other empty keyframe or
+      extra keyframe should be inserted.<br/>It is not needed to be instantiated directly, the SGGameField takes care of it, just
+      needs<br/>to be sure that it is assigned to that MovieClip.<br/>
+   </div>
+   <div class="detailHeader"><a onclick="toggleDetails('div|details')"><img src="OrteliusAjax/foldud.gif" ID="img|details" border="0" height="9" width="15">Details</a></div>
+   <div id="div|details" class="hiddenElement">
+      <div class="detailElement"><b>Author: </b>Luiz de Mello<br/>
+      </div>
+      <div class="detailElement"><b>Inheritance: </b>SGPiece<b>→</b><a onmousedown="showElement('@MovieClip');return false;">MovieClip</a></div>
+   </div>
+   <div class="detailHeader"><a onclick="toggleDetails('div|import')"><img src="OrteliusAjax/foldud.gif" ID="img|import" border="0" height="9" width="15">Imported packages</a></div>
+   <div id="div|import" class="hiddenElement">
+      <div class="detailElement">flash.display.*</div>
+      <div class="detailElement">flash.events.*</div>
+   </div><br><br><div class="detailHeader"><a onclick="toggleDetails('div|publicmethod')"><img src="OrteliusAjax/foldind.gif" ID="img|publicmethod" border="0" height="9" width="15">Public methods</a></div>
+   <div id="div|publicmethod" class="detailsVisible">
+      <table border="0" cellpadding="0" cellspacing="0" class="methodPropertyTabel">
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.SGPiece');return false;">SGPiece</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif" title=""></td>
+            <td class="methodPropertySummary">Creates a new instance of this class.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.SetAsEmpty');return false;">SetAsEmpty</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">Set the piece as an empty piece.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.toString');return false;">toString</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"> <img border="0" src="OrteliusAjax/overridemodifier.gif" title="override"></td>
+            <td class="methodPropertySummary">Returns a string containing information that describes the piece.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+      </table>
+      <div class="modifierExplanation"><img src="OrteliusAjax/staticmodifier.gif">=static | <img src="OrteliusAjax/overridemodifier.gif">=overridden | <img src="OrteliusAjax/dynamicmodifier.gif">=dynamic
+      </div>
+   </div>
+   <div class="detailHeader"><a onclick="toggleDetails('div|publicproperties')"><img src="OrteliusAjax/foldind.gif" ID="img|publicproperties" border="0" height="9" width="15">Public properties</a></div>
+   <div id="div|publicproperties" class="detailsVisible">
+      <table border="0" cellpadding="0" cellspacing="0" class="methodPropertyTabel">
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.FieldX');return false;">FieldX</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">The X position of the piece within the playing field, rather than on screen.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.FieldY');return false;">FieldY</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">The Y position of the piece within the playing field, rather than on screen.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.Id');return false;">Id</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">A number that denotes what piece is this. Indirectly points what frame<br/>it represents within the MovieClip.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.PieceHeight');return false;">PieceHeight</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">The Height of the each piece in pixels.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.PieceWidth');return false;">PieceWidth</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">The Width of the each piece in pixels.<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.Type');return false;">Type</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">Returns the type of piece (Empty = 1, Filled = 0).<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+         <tr class="methodPropertyLine">
+            <td class="methodPropertyTitle"><img src="OrteliusAjax/arrowright.gif" border="0" height="9" width="15"><a onmousedown="showElement('SGPiece.TypeName');return false;">TypeName</a></td>
+            <td class="methodPropertyModifiers"><img border="0" src="OrteliusAjax/modifier.gif"></td>
+            <td class="methodPropertySummary">Gets the name associated with the Type of this piece (either an Empty_Piece or a Filled_Piece).<br/><img border="0" src="OrteliusAjax/modifier.gif"></td>
+         </tr>
+      </table>
+      <div class="modifierExplanation"><img src="OrteliusAjax/staticmodifier.gif">=static | <img src="OrteliusAjax/overridemodifier.gif">=overridden | <img src="OrteliusAjax/dynamicmodifier.gif">=dynamic
+      </div>
+   </div>
+</div>
